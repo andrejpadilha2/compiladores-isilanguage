@@ -1,0 +1,10 @@
+programa
+
+	declare string a, b;
+	
+	b := "+";
+	
+	a := "2" + b + 2;
+
+	
+fimprog;

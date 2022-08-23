@@ -1,0 +1,61 @@
+programa
+
+	declare int i;
+	declare double a, b, c, d;
+	declare string x, y;
+	escreva("Programa Teste");
+	
+	escreva("Digite a");
+	leia(a);
+	escreva("Digite b");
+	leia(b);
+	escreva("Digite c");
+	leia(c);
+	
+	
+	i := 2 + 3/4;
+	
+	se ((a + b)+2 < c) entao
+	{
+		se ((a+1+a) > c) entao
+		{
+			c := 100.0;
+			c := 1 + a * b / b;
+			y := ". Olha um string concatenado!";
+			x := "primeiro if"+y;
+			escreva(x);
+		}
+		senao {
+			c := 200.0;
+			x := "segundo if";
+			escreva(x);
+		}
+	}
+	senao {
+		c := (300.0*3)/((2*10)/a);
+		x := "terceiro if";
+		escreva(x);
+	}
+	
+	enquanto ((a+b)*3 < (100*c)+1)
+	{
+		se ((a/2)*(3/4) < (b*c)) entao
+		{
+			escreva("O valor de a é :");
+			escreva(a);
+		}
+		a := a + 1;
+	}
+	
+	
+	escreva("c é igual a ");
+	escreva(c);
+	
+	d := 2;
+	
+	escreva("d é igual a ");
+	escreva(d);
+	
+
+	
+fimprog;
